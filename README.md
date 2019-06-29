@@ -2,6 +2,9 @@
 This is a framework for creating an interactive visible grid for your site.
 
 #### Installation:
+```
+$ npm i ennagegrid_
+```
 - include the file "ennageGrid.min.js"
 ```html
 	<script type="text/javascript" src="ennageGrid.min.js"></script>

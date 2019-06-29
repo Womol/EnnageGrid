@@ -1,0 +1,17 @@
+{
+  "name": "ennagegrid_",
+  "version": "1.0.0",
+  "description": "Create an interactive, multi-functional grid on your site",
+  "main": "ennageGrid.min.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/AndrewNes/EnnageGrid.git"
+   },
+  "keywords": [],
+  "author": "Andrey Nesterov (Ennage Team)",
+  "license": "ISC",
+  "homepage": "https://github.com/AndrewNes/EnnageGrid"
+}
