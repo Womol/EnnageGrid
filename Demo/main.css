@@ -1,0 +1,59 @@
+/*-------------------------------------------------------------------------------------*/
+/*-------------The product is owned by the Ennage development team.--------------------*/
+/*--------------------------The author Andrey Nesterov---------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@charset "utf-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+
+    overflow: -moz-scrollbars-none;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+p{
+    position: relative;
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-shadow: 0px 4px 4px rgba(30, 30, 30, 0.25);
+    z-index: 2;
+}
+canvas{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
